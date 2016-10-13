@@ -1,0 +1,20 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Diffuse="1,0,0" Emissive="0,0,0" GenMask="80000001" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="proxy" Opacity="1" Shader="Illum" Shininess="9.999999" Specular="0,0,0" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_vegetation" vertModifType="0">
+   <Textures />
+   <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+  </Material>
+  <Material AlphaTest="0.64999998" Diffuse="0.7445302,0.7445302,0.7445302" Emissive="0,0,0" GenMask="2401801000" LayerAct="1" MatTemplate="" MtlFlags="524416" Name="leaf" Opacity="1" Shader="Vegetation" Shininess="255" Specular="0.027755279,0.027755279,0.027755279" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" vertModifType="1">
+   <Textures>
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/bushes/buxus/textures/buxus_diff.tif" Map="Diffuse" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/bushes/buxus/textures/buxus_ddna.tif" Map="Bumpmap" />
+    <Texture File="objects/AAA_CRYTEK_ASSETS/natural/bushes/buxus/textures/buxus_sss.tif" Map="Opacity" />
+   </Textures>
+   <VertexDeform DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1" Type="1">
+    <WaveX Amp="0.003" Freq="1.5" Level="0" Phase="0" Type="1" />
+   </VertexDeform>
+   <PublicParams BackDiffuseMultiplier="0.95099998" BackViewDep="0.5" BlendMaskTiling="1" BlendTerrainCol="0" BlendTerrainColDist="0.5" CapOpacityFalloff="0" IndirectColor="0.25,0.25,0.25" TransmittanceColor="1,1,0.60000002" VertexAlphaBlendFactor="1" bendDetailBranchAmplitude="-0.5" bendDetailFrequency="1" bendDetailLeafAmplitude="0.2" />
+  </Material>
+ </SubMaterials>
+ <PublicParams IndirectColor="0.25,0.25,0.25" SSSIndex="0" />
+</Material>
